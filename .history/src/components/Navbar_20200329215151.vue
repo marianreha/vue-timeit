@@ -5,8 +5,8 @@
       </div>
       <div class="navbar-main">
           <div class="child"><span><img class="logo" src="../assets/logo.jpg" alt="logo"></span></div>
-          <div class="child"><span class="title">Stora Enso Time-it</span></div>
-          <div class="child"><span class="user">Login</span></div>
+          <div class="child"><span>Stora Enso Time-it</span></div>
+          <div class="child"><span>LoginLoginLoginLogin</span></div>
       </div>
   </div>
 </template>
@@ -28,12 +28,12 @@ export default {
 
 .navbar-main {
     display: flex;
-    flex: 1;
     height: 2rem;
-    align-items: center;
+    /* align-items: center; */
     padding: 25px 5%;
     box-shadow: 0 3px 8px -8px;
     box-sizing: border-box;
+    flex: 1;
 }
 
 .child {
@@ -46,12 +46,9 @@ export default {
     margin-right: auto;
 }
 
-.child:last-child > span {
-    margin-left: auto;
-}
-
 .logo {
     height: 40px;
+    margin-right: auto;
 }
 
 .title {
@@ -62,6 +59,32 @@ export default {
 
 .user {
     margin-left: auto;
-    font-size: 17px;
 }
+
+/* .navbar-main {
+    display: flex;
+    height: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 5%;
+    box-shadow: 0 3px 8px -8px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.logo {
+    height: 40px;
+    margin-right: auto;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 17px;
+    flex-grow: 1;
+}
+
+.user {
+    margin-left: auto;
+} */
+
 </style>>

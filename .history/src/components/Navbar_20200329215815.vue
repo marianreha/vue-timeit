@@ -6,7 +6,7 @@
       <div class="navbar-main">
           <div class="child"><span><img class="logo" src="../assets/logo.jpg" alt="logo"></span></div>
           <div class="child"><span class="title">Stora Enso Time-it</span></div>
-          <div class="child"><span class="user">Login</span></div>
+          <div class="child"><span class="user">Login........................</span></div>
       </div>
   </div>
 </template>

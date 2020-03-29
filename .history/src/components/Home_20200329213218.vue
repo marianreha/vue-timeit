@@ -28,7 +28,7 @@ p {
 }
 
 .btn {
-    padding: 22px;
+    padding: 25px;
     margin-bottom: 25px;
     background-color: #009FDF;
     border: none;

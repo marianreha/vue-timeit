@@ -28,8 +28,8 @@ p {
 }
 
 .btn {
-    padding: 22px;
-    margin-bottom: 25px;
+    padding: 25px;
+    margin-bottom: 20px;
     background-color: #009FDF;
     border: none;
     outline: none;
@@ -47,7 +47,7 @@ p {
 
 .btn-delegate {
     background-color: #888B8D;
-    margin-top: 60px;
+    margin-top: 75px;
 }
 
 </style>

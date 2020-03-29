@@ -1,13 +1,13 @@
 <template>
   <div>
-      <div class="navbar-green">
+      <header class="navbar-green">
           The renewable materials company
-      </div>
-      <div class="navbar-main">
-          <div class="child"><span><img class="logo" src="../assets/logo.jpg" alt="logo"></span></div>
-          <div class="child"><span class="title">Stora Enso Time-it</span></div>
-          <div class="child"><span class="user">Login</span></div>
-      </div>
+      </header>
+      <header class="navbar-main">
+          <img class="logo" src="../assets/logo.jpg" alt="logo">
+          <span class="title">Stora Enso Time-it</span>
+          <span class="user">LoginLoginLoginLoginLoginLogin</span>
+      </header>
   </div>
 </template>
 
@@ -28,30 +28,19 @@ export default {
 
 .navbar-main {
     display: flex;
-    flex: 1;
     height: 2rem;
+    /* justify-content: space-between; */
+    justify-content: center;
     align-items: center;
     padding: 25px 5%;
     box-shadow: 0 3px 8px -8px;
     box-sizing: border-box;
-}
-
-.child {
     flex: 1;
-    display: flex;
-    justify-content: center;
-}
-
-.child:first-child > span {
-    margin-right: auto;
-}
-
-.child:last-child > span {
-    margin-left: auto;
 }
 
 .logo {
     height: 40px;
+    margin-right: auto;
 }
 
 .title {
@@ -61,7 +50,7 @@ export default {
 }
 
 .user {
-    margin-left: auto;
-    font-size: 17px;
+    
 }
+
 </style>>
