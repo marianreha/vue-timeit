@@ -32,9 +32,10 @@ p {
     margin-bottom: 15px;
     background-color: #009FDF;
     border: none;
-    outline: none;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
 }
 
 .btn:hover {

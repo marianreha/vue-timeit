@@ -29,13 +29,14 @@ export default {
   color: #2c3e50;
   padding: 0px;
 }
-
+/* 
 body {
   margin: 0;
-}
-
+} */
+/* 
 * {
+    margin: 0 !important;
     cursor: default;
-}
+} */
 
 </style>

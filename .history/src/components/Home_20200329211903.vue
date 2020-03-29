@@ -34,7 +34,8 @@ p {
     border: none;
     outline: none;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .btn:hover {

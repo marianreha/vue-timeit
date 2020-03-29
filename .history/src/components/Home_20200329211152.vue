@@ -29,12 +29,12 @@ p {
 
 .btn {
     padding: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     background-color: #009FDF;
     border: none;
-    outline: none;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .btn:hover {
@@ -47,7 +47,39 @@ p {
 
 .btn-delegate {
     background-color: #888B8D;
-    margin-top: 75px;
+    margin-top: 40px;
 }
+
+
+/* .buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.buttons span {
+    padding: 25px 20% 25px 20%;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+
+    
+} */
+
+/* .btn-group {
+    display: block;
+    padding: 0 10%;
+    width: 120%;
+    justify-content: left;
+}
+
+.btn-group button {
+    padding: 25px;
+} */
 
 </style>

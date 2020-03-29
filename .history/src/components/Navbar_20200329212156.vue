@@ -45,5 +45,7 @@ export default {
 
 .logo {
     height: 45px;
+    cursor: pointer;
+    outline: none;
 }
 </style>>

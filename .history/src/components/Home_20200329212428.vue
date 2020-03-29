@@ -35,6 +35,7 @@ p {
     outline: none;
     color: #ffffff;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .btn:hover {

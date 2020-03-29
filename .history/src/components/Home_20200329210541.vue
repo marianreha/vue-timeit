@@ -3,9 +3,8 @@
         <p>Please select what you want to do next:</p>
         <div class="container">
             <button class="btn">Enter working hours</button>
-            <button class="btn">Enter out of work/training</button>
+            <button class="btn">Enter OOO</button>
             <button class="btn btn-yellow">View report</button>
-            <button class="btn btn-delegate">Act as delegate</button>
         </div>
     </div>
 </template>
@@ -22,19 +21,17 @@ p {
 }
 
 .container {
-    padding: 0 20px;
+    padding-top: 0px;
     display: flex;
     flex-direction: column;
+    max-width: 700px;
 }
 
 .btn {
-    padding: 25px;
-    margin-bottom: 15px;
+    padding: 20px;
+    margin-bottom: 10px;
     background-color: #009FDF;
     border: none;
-    outline: none;
-    color: #ffffff;
-    font-size: 20px;
 }
 
 .btn:hover {
@@ -45,9 +42,36 @@ p {
     background-color: #FFD100;
 }
 
-.btn-delegate {
-    background-color: #888B8D;
-    margin-top: 75px;
+
+/* .buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    max-width: 700px;
+    text-align: center;
 }
+
+.buttons span {
+    padding: 25px 20% 25px 20%;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+
+    
+} */
+
+/* .btn-group {
+    display: block;
+    padding: 0 10%;
+    width: 120%;
+    justify-content: left;
+}
+
+.btn-group button {
+    padding: 25px;
+} */
 
 </style>

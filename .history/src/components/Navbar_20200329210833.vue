@@ -40,10 +40,11 @@ export default {
 
 .navbar nav {
     font-weight: bold;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .logo {
     height: 45px;
+    cursor: pointer;
 }
 </style>>

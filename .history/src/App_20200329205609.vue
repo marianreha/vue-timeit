@@ -30,11 +30,9 @@ export default {
   padding: 0px;
 }
 
-body {
-  margin: 0;
-}
-
 * {
+    box-sizing: border-box;
+    margin: 0 !important;
     cursor: default;
 }
 

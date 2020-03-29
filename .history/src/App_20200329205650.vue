@@ -33,9 +33,10 @@ export default {
 body {
   margin: 0;
 }
-
+/* 
 * {
+    margin: 0 !important;
     cursor: default;
-}
+} */
 
 </style>

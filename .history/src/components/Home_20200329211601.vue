@@ -32,9 +32,9 @@ p {
     margin-bottom: 15px;
     background-color: #009FDF;
     border: none;
-    outline: none;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .btn:hover {
@@ -43,11 +43,12 @@ p {
 
 .btn-yellow {
     background-color: #FFD100;
+    margin-bottom: 0;
 }
 
 .btn-delegate {
     background-color: #888B8D;
-    margin-top: 75px;
+    /* margin-top: 90px; */
 }
 
 </style>

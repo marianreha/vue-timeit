@@ -25,6 +25,8 @@ p {
     padding: 0 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-justify: center;
 }
 
 .btn {
@@ -34,7 +36,9 @@ p {
     border: none;
     outline: none;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 700px;
 }
 
 .btn:hover {

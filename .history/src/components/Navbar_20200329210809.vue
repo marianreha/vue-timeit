@@ -5,9 +5,9 @@
       </header>
       <header class="navbar">
           <img class="logo" src="../assets/logo.jpg" alt="logo">
-          <nav>
+          <p>
               Stora Enso Time-it
-          </nav>
+          </p>
           <span>Login</span>
       </header>
   </div>
@@ -38,12 +38,12 @@ export default {
     box-sizing: border-box;
 }
 
-.navbar nav {
+.navbar p {
     font-weight: bold;
-    font-size: 17px;
 }
 
 .logo {
     height: 45px;
+    cursor: pointer;
 }
 </style>>

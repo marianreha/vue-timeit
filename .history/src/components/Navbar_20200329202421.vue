@@ -19,7 +19,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .green {
     padding: 4px 0 3px 0;
     background-color: #78BE20;
@@ -35,15 +35,14 @@ export default {
     align-items: center;
     padding: 25px 5%;
     box-shadow: 0 3px 8px -8px;
-    box-sizing: border-box;
 }
 
 .navbar nav {
     font-weight: bold;
-    font-size: 17px;
 }
 
 .logo {
     height: 45px;
+    cursor: pointer;
 }
 </style>>
