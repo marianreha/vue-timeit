@@ -37,10 +37,6 @@ export default {
     box-shadow: 0 3px 8px -8px;
 }
 
-.navbar nav {
-    font-weight: bold;
-}
-
 .logo {
     height: 45px;
     cursor: pointer;

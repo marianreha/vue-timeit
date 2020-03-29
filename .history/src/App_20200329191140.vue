@@ -28,11 +28,14 @@ export default {
   text-align: center;
   color: #2c3e50;
   padding: 0px;
-}
-
-* {
-    box-sizing: border-box;
+      box-sizing: border-box;
     margin: 0 !important;
     cursor: default;
 }
+
+/* * {
+    box-sizing: border-box;
+    margin: 0 !important;
+    cursor: default;
+} */
 </style>

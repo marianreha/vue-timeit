@@ -20,6 +20,15 @@ export default {
 </script>
 
 <style>
+* {
+    box-sizing: border-box;
+    margin: 0 !important;
+}
+
+nav {
+    cursor: default;
+}
+
 .green {
     padding: 4px 0 3px 0;
     background-color: #78BE20;
@@ -37,12 +46,7 @@ export default {
     box-shadow: 0 3px 8px -8px;
 }
 
-.navbar nav {
-    font-weight: bold;
-}
-
 .logo {
     height: 45px;
-    cursor: pointer;
 }
 </style>>

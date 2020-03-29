@@ -38,7 +38,7 @@ export default {
 }
 
 .navbar nav {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .logo {
