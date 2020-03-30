@@ -5,14 +5,13 @@
 </template>
 
 <script>
-// import Home from './components/Home';
+import Home from './components/Home';
 import Login from './components/Login';
 
 export default {
   name: 'App',
   components: {
-    // Home,
-    Login
+    Home,
   }
 }
 </script>

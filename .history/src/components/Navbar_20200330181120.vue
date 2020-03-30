@@ -6,7 +6,7 @@
       <div class="navbar-main">
           <div class="child"><span><img class="logo" src="../assets/logo.jpg" alt="logo"></span></div>
           <div class="child"><span class="title">Stora Enso Time-it</span></div>
-          <div class="child"><span class="user">User</span></div>
+          <div class="child"><span class="user">Login</span></div>
       </div>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .navbar-green {
     padding: 4px 0 3px 0;
     background-color: #78BE20;
