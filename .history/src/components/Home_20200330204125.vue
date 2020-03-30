@@ -33,8 +33,18 @@ p {
 
 .btn {
     padding: 22px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 25px;
+    background-color: #009FDF;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 20px;
+    width: 20rem;
+}
+
+.btn2 {
+    padding: 22px;
+    margin-bottom: 25px;
     background-color: #009FDF;
     border: none;
     outline: none;
