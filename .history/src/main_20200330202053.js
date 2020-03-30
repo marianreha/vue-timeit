@@ -6,7 +6,6 @@ import Home from './components/Home';
 import EnterHours from './components/pages/EnterHours';
 import EnterOoo from './components/pages/EnterOoo';
 import ViewReport from './components/pages/ViewReport';
-import Delegate from './components/pages/Delegate';
 
 
 Vue.use(VueRouter);
@@ -20,7 +19,6 @@ const router = new VueRouter({
     { path: '/enter_hours', component: EnterHours },
     { path: '/enter_ooo', component: EnterOoo },
     { path: '/report', component: ViewReport },
-    { path: '/delegate', component: Delegate },
   ],
   mode: 'history',
 });

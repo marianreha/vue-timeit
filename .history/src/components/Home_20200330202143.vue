@@ -3,9 +3,9 @@
         <p>Please select what you want to do next:</p>
         <div class="container">
             <router-link to="/enter_hours"><button class="btn">Enter working hours</button></router-link>
-            <router-link to="/enter_ooo"><button class="btn">Enter out of work/training</button></router-link>
-            <router-link to="/report"><button class="btn btn-yellow">View report</button></router-link>
-            <router-link to="/delegate"><button class="btn btn-delegate">Act as delegate</button></router-link>
+            <button class="btn">Enter out of work/training</button>
+            <button class="btn btn-yellow">View report</button>
+            <button class="btn btn-delegate">Act as delegate</button>
         </div>
     </div>
 </template>
