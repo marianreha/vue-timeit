@@ -2,7 +2,7 @@
     <div>
         <p>Please select what you want to do next:</p>
         <div class="container">
-            <router-link to="/enter_hours"><button class="btn">Enter working hours</button></router-link>
+            <router-link to="/enter_hours" class="btn2">Enter working hours</router-link>
             <router-link to="/enter_ooo"><button class="btn">Enter out of work/training</button></router-link>
             <router-link to="/report"><button class="btn btn-yellow">View report</button></router-link>
             <router-link to="/delegate"><button class="btn btn-delegate">Act as delegate</button></router-link>
@@ -33,8 +33,18 @@ p {
 
 .btn {
     padding: 22px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 25px;
+    background-color: #009FDF;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 20px;
+    width: 20rem;
+}
+
+.btn2 {
+    padding: 22px;
+    margin-bottom: 25px;
     background-color: #009FDF;
     border: none;
     outline: none;
