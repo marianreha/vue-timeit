@@ -22,7 +22,7 @@ export default {
 
 <style>
 p {
-    padding: 30px 0 20px 0;
+    padding: 40px 0 30px 0;
 }
 
 .container {
@@ -32,7 +32,7 @@ p {
 }
 
 .btn {
-    padding: 20px;
+    padding: 22px;
     margin-top: 12px;
     margin-bottom: 12px;
     background-color: #009FDF;
@@ -40,7 +40,7 @@ p {
     outline: none;
     color: #ffffff;
     font-size: 16px;
-    width: 17rem;
+    width: 20rem;
 }
 
 .btn:hover {
