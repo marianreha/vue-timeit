@@ -1,23 +1,26 @@
 <template>
     <div>
-        <Navbar />
         <div class="loginButton"><button>Login</button></div>
+        <div>{{ userEmail }}</div>
     </div>
 </template>
 
 <script>
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 
 export default {
-    name: 'Login',
+    name: 'User',
     components: {
-        Navbar,
-    }
+    },
+
+    data: () => ({
+        userEmail: 'neco@neco.com'
+    }),
 }
 </script>
 
 <style>
 .loginButton {
-    padding-top: 50%;
+    padding-top: 100px;
 }
 </style>

@@ -5,7 +5,7 @@
       </div>
       <div class="navbar-main">
           <div class="child"><span><router-link to="/"><img class="logo" src="../assets/logo.jpg" alt="logo"></router-link></span></div>
-          <div class="child"><span class="title">Stora Enso Time-it</span></div>
+          <div class="child"><router-link to="/"><span class="title">Stora Enso Time-it</span></router-link></div>
           <div class="child"><span class="user"><router-link to="/user">User</router-link></span></div>
       </div>
   </div>
@@ -40,6 +40,7 @@ export default {
     flex: 1;
     display: flex;
     justify-content: center;
+    align-content: stretch;
 }
 
 .child:first-child > span {

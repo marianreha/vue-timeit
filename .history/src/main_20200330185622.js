@@ -1,18 +1,18 @@
 import Vue from 'vue';
 import App from './App.vue';
 import VueRouter from 'vue-router';
-import User from './components/User';
+import Login from './components/Login';
 import Home from './components/Home';
 
 
-Vue.use(VueRouter);
+Vue.user(VueRouter);
 
 Vue.config.productionTip = false
 
 const router = new VueRouter({
   routes: [
-    { path: '/', component: Home },
-    { path: '/user', component: User }
+    { path: '/', component: Login },
+    { path: '/home', component: Home }
   ],
   mode: 'history',
 });

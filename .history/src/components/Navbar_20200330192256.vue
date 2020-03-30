@@ -3,10 +3,11 @@
       <div class="navbar-green">
           The renewable materials company
       </div>
-      <div class="navbar-main">
+      <div class="navbar-main"><router-link to="/"></router-link>
           <div class="child"><span><router-link to="/"><img class="logo" src="../assets/logo.jpg" alt="logo"></router-link></span></div>
           <div class="child"><span class="title">Stora Enso Time-it</span></div>
           <div class="child"><span class="user"><router-link to="/user">User</router-link></span></div>
+        
       </div>
   </div>
 </template>

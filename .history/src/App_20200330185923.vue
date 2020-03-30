@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <Navbar />
+    <ul>
+      <li><router-link to="/">Login</router-link></li>
+      <li><router-link to="/home">Home</router-link></li>
+    </ul>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Navbar from './components/Navbar';
+
 
 
 export default {
   name: 'App',
   components: {
-    Navbar,
+
   }
 }
 </script>
@@ -28,10 +31,10 @@ export default {
   color: #2c3e50;
   padding: 0px;
 }
-
+/* 
 body {
   margin: 0;
-}
+} */
 
 * {
     cursor: default;

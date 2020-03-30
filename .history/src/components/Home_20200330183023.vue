@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Navbar />
         <p>Please select what you want to do next:</p>
         <div class="container">
             <button class="btn">Enter working hours</button>
@@ -11,11 +12,12 @@
 </template>
 
 <script>
+import Navbar from './Navbar'
 
 export default {
     name: 'Home',
     components: {
-
+        Navbar
     }
 }
 </script>

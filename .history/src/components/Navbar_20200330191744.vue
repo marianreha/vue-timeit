@@ -4,7 +4,7 @@
           The renewable materials company
       </div>
       <div class="navbar-main">
-          <div class="child"><span><router-link to="/"><img class="logo" src="../assets/logo.jpg" alt="logo"></router-link></span></div>
+          <router-link to="/"><div class="child"><span><img class="logo" src="../assets/logo.jpg" alt="logo"></span></div></router-link>
           <div class="child"><span class="title">Stora Enso Time-it</span></div>
           <div class="child"><span class="user"><router-link to="/user">User</router-link></span></div>
       </div>
