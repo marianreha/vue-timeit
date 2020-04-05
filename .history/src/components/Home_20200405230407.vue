@@ -27,7 +27,7 @@ export default {
     padding: 1rem 2rem;
     display: grid;
     grid-template-rows: repeat(6, 3.4rem);
-    grid-row-gap: 1.4rem;
+    grid-gap: 1.4rem;
 }
 
 .item {
@@ -64,7 +64,7 @@ export default {
     grid-row-start: 6;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 492px) {
 
     .container {
         grid-template-columns: auto 25rem auto;

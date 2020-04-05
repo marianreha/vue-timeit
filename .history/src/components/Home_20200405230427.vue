@@ -27,7 +27,7 @@ export default {
     padding: 1rem 2rem;
     display: grid;
     grid-template-rows: repeat(6, 3.4rem);
-    grid-row-gap: 1.4rem;
+    grid-gap: 1.4rem;
 }
 
 .item {

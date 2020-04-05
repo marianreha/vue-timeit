@@ -1,6 +1,5 @@
 <template>
     <div>
-        <side></side>
         <div class="container">
             <div class="item info"><p>Please select what you want to do next:</p></div>
             <router-link to="/enter_hours" class="item btn blue">Enter working hours</router-link>
@@ -27,7 +26,7 @@ export default {
     padding: 1rem 2rem;
     display: grid;
     grid-template-rows: repeat(6, 3.4rem);
-    grid-row-gap: 1.4rem;
+    grid-gap: 1.4rem;
 }
 
 .item {
@@ -64,15 +63,11 @@ export default {
     grid-row-start: 6;
 }
 
-@media only screen and (min-width: 500px) {
+@media screen and (min-width: 768) {
 
-    .container {
-        grid-template-columns: auto 25rem auto;
-    }
-
-    .item {
-        grid-column-start: 2;
-    }
+.container {
+    grid-template-columns: auto 20rem auto;
+}
 
 }
 

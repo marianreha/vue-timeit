@@ -6,7 +6,7 @@
       <div class="navbar-main">
           <div class="child"><span><router-link to="/"><img class="logo" src="../assets/logo.jpg" alt="logo"></router-link></span></div>
           <div class="child"><span class="title">Time-it</span></div>
-          <div class="child"><span ><router-link to="/user" class="user">Account</router-link></span></div>
+          <div class="child"><span ><router-link to="/user" class="user"></router-link></span></div>
       </div>
   </body>
 </template>
