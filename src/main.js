@@ -7,7 +7,6 @@ import EnterHours from './components/pages/EnterHours';
 import EnterOoo from './components/pages/EnterOoo';
 import ViewReport from './components/pages/ViewReport';
 import Delegate from './components/pages/Delegate';
-import './registerServiceWorker'
 
 
 Vue.use(VueRouter);
