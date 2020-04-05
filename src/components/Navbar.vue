@@ -34,6 +34,7 @@ export default {
     padding: 25px 5%;
     box-shadow: 0 3px 8px -8px;
     box-sizing: border-box;
+    background-color: #ffffff;
 }
 
 .child {
