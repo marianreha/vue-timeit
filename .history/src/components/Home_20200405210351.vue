@@ -1,7 +1,8 @@
 <template>
     <div>
+     
         <div class="container">
-            <div class="item info"><p>Please select what you want to do next:</p></div>
+            <div class="item title"><p>Please select what you want to do next:</p></div>
             <router-link to="/enter_hours" class="item btn blue">Enter working hours</router-link>
             <router-link to="/enter_ooo" class="item btn blue">Enter out of work/training</router-link>
             <router-link to="/report" class="item btn yellow">View report</router-link>
@@ -21,9 +22,12 @@ export default {
 </script>
 
 <style>
+/* p {
+    padding: 30px 0 20px 0;
+} */
 
 .container {
-    padding: 1rem 2rem;
+    padding: 0 2rem;
     display: grid;
     grid-template-rows: repeat(5, 4rem);
     grid-gap: 1.5rem;
@@ -33,13 +37,12 @@ export default {
     display:flex;
     justify-content: center;
     align-items: center;
-    /* max-width: 35rem; */
+    max-width: 35rem;
     font-size: 16px;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
-.info {
-    align-items: flex-end;
+.title {
+
 }
 
 .btn {

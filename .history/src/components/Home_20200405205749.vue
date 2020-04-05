@@ -1,9 +1,10 @@
 <template>
     <div>
+     
         <div class="container">
-            <div class="item info"><p>Please select what you want to do next:</p></div>
-            <router-link to="/enter_hours" class="item btn blue">Enter working hours</router-link>
-            <router-link to="/enter_ooo" class="item btn blue">Enter out of work/training</router-link>
+            <div class="item"><p>Please select what you want to do next:</p></div>
+            <router-link to="/enter_hours" class="item btn">Enter working hours</router-link>
+            <router-link to="/enter_ooo" class="item btn">Enter out of work/training</router-link>
             <router-link to="/report" class="item btn yellow">View report</router-link>
             <router-link to="/delegate" class="item btn delegate">Act as delegate</router-link>
         </div>
@@ -21,37 +22,30 @@ export default {
 </script>
 
 <style>
+/* p {
+    padding: 30px 0 20px 0;
+} */
 
 .container {
-    padding: 1rem 2rem;
+    padding: 0 2rem;
     display: grid;
-    grid-template-rows: repeat(5, 4rem);
+    grid-template-rows: repeat(4, 4rem);
     grid-gap: 1.5rem;
 }
 
-.item {
+.btn {
     display:flex;
     justify-content: center;
     align-items: center;
-    /* max-width: 35rem; */
+    max-width: 35rem;
+    background-color: #009FDF;
+    color: #ffffff;
     font-size: 16px;
     text-decoration: none;
 }
 
-.info {
-    align-items: flex-end;
-}
-
-.btn {
-    color: #ffffff;
-}
-
 .btn:hover {
     background-color: #006cbe;
-}
-
-.blue {
-    background-color: #009FDF;
 }
 
 .yellow {

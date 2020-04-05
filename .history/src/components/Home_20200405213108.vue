@@ -1,5 +1,6 @@
 <template>
     <div>
+     
         <div class="container">
             <div class="item info"><p>Please select what you want to do next:</p></div>
             <router-link to="/enter_hours" class="item btn blue">Enter working hours</router-link>
@@ -31,9 +32,9 @@ export default {
 
 .item {
     display:flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    /* max-width: 35rem; */
+    max-width: 35rem;
     font-size: 16px;
     text-decoration: none;
 }

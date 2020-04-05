@@ -5,7 +5,7 @@
       </div>
       <div class="navbar-main">
           <div class="child"><span><router-link to="/"><img class="logo" src="../assets/logo.jpg" alt="logo"></router-link></span></div>
-          <div class="child"><span class="title">Time-it</span></div>
+          <div class="child"><span class="title">Stora Enso Time-it</span></div>
           <div class="child"><span class="user"><router-link to="/user">User</router-link></span></div>
       </div>
   </body>
@@ -17,7 +17,13 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+@import url(//db.onlinewebfonts.com/c/2afedaab5a5177410b408023384af22d?family=HelveticaNeueLTW01-55Roman);
+
+body {
+    margin: 0;
+}
+
 .navbar-green {
     padding: 4px 0 3px 0;
     background-color: #78BE20;
