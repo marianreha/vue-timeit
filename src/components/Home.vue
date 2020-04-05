@@ -28,7 +28,6 @@ export default {
     display: grid;
     grid-template-rows: repeat(6, 3.4rem);
     grid-row-gap: 1.4rem;
-    margin-bottom: 1.8rem;
 }
 
 .item {
