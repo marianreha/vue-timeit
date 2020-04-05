@@ -24,6 +24,7 @@ export default {
     color: #FFFFFF;
     font-size: 9.5px;
     text-transform: uppercase;
+    position: sticky;
 }
 
 .navbar-main {
@@ -32,7 +33,6 @@ export default {
     height: 2rem;
     align-items: center;
     padding: 25px 5%;
-    background: #FFFFFF;
     box-shadow: 0 3px 8px -8px;
     box-sizing: border-box;
 }

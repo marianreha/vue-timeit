@@ -29,7 +29,7 @@ export default {
   padding: 0px;
 }
 
-#navbar {
+#Navbar {
   position: sticky;
   top: 0;
 }

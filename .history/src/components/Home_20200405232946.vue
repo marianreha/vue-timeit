@@ -28,14 +28,14 @@ export default {
     display: grid;
     grid-template-rows: repeat(6, 3.4rem);
     grid-row-gap: 1.4rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 2rem;
 }
 
 .item {
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none;
 }
 

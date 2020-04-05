@@ -24,11 +24,10 @@ export default {
 <style>
 
 .container {
-    padding: 1rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     display: grid;
     grid-template-rows: repeat(6, 3.4rem);
     grid-row-gap: 1.4rem;
-    margin-bottom: 1.8rem;
 }
 
 .item {

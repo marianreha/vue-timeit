@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Navbar id="navbar" />
+    <Navbar />
     <router-view></router-view>
   </div>
 </template>
@@ -29,7 +29,7 @@ export default {
   padding: 0px;
 }
 
-#navbar {
+#Navbar {
   position: sticky;
   top: 0;
 }
