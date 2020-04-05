@@ -25,7 +25,7 @@ export default {
 .container {
     padding: 1rem 2rem;
     display: grid;
-    grid-template-rows: repeat(6, 3.4rem);
+    grid-template-rows: repeat(5, 3rem);
     grid-gap: 1.4rem;
 }
 
@@ -39,7 +39,6 @@ export default {
 
 .info {
     align-items: flex-end;
-    margin-top: 4rem;
 }
 
 .btn {
@@ -60,7 +59,6 @@ export default {
 
 .delegate {
     background-color: #888B8D;
-    grid-row-start: 6;
 }
 
 </style>

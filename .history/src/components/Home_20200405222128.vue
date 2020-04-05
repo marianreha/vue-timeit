@@ -39,7 +39,7 @@ export default {
 
 .info {
     align-items: flex-end;
-    margin-top: 4rem;
+    margin-top: ;
 }
 
 .btn {

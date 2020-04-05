@@ -39,7 +39,7 @@ export default {
 
 .info {
     align-items: flex-end;
-    margin-top: 4rem;
+    margin-top: ;
 }
 
 .btn {
@@ -60,7 +60,7 @@ export default {
 
 .delegate {
     background-color: #888B8D;
-    grid-row-start: 6;
+    grid-row-start: row-6;
 }
 
 </style>
