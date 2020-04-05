@@ -29,10 +29,10 @@ export default {
   padding: 0px;
 }
 
-#navbar {
+/* #navbar {
   position: sticky;
   top: 0;
-}
+} */
 
 body {
   margin: 0;
